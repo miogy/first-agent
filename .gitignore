@@ -1,8 +1,12 @@
 .env
 .env.*
 !.env.example
+.envrc
+
+.DS_Store
 
 __pycache__/
 *.pyc
 .venv/
 .ipynb_checkpoints/
+uv run nbstripout --install
